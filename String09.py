@@ -6,6 +6,6 @@ def main(s):
     Returns:
         int: answer
     """
+    return s.count("a")
     
-    return s.find("a",1,len(s))
-print(main("google is  serch engine"))
+print(main("google is a serch engine"))
