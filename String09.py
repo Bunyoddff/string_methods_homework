@@ -7,4 +7,5 @@ def main(s):
         int: answer
     """
     
-    return
+    return s.find("a",1,len(s))
+print(main("google is  serch engine"))
